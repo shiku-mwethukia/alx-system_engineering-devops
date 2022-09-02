@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times using until loop
+#prints a string 10 times
 
-INDEX=10
-until [ $INDEX -lt 1 ]
+number=0
+until [ $number -eq 10 ]
 do
-    echo "Best School"
-    let INDEX-=1
+	echo "Best School"
+	number=$(( number + 1 ))
 done
