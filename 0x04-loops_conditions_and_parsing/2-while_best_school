@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times using while loop
-
-INDEX=0
-while [ $INDEX -lt 10 ]
+#prints a string 10 times
+x=0
+while [ $x -ne 10 ]
 do
-    echo "Best School"
-    let INDEX=INDEX+1
+  echo "Best School"
+  x=$(( x + 1 ))
 done
