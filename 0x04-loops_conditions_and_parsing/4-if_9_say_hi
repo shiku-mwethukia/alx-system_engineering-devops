@@ -10,5 +10,5 @@ do
     else
         echo "Best School"
     fi
-        INDEX += 1
+    INDEX+=1
 done
